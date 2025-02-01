@@ -4,7 +4,7 @@ package Behavioural_patterns.Command;
  * Конкретная команда для выключения света.
  */
 class TurnOffLightCommand implements Command {
-    private Light light;
+    private final Light light;
 
     public TurnOffLightCommand(Light light) {
         this.light = light;
