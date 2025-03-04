@@ -1,4 +1,4 @@
-package Momento;
+package Behavioural_patterns.Momento;
 
 /**
  * Класс, представляющий текстовый редактор.
@@ -19,6 +19,6 @@ class Editor {
     }
 
     public void restore(EditorState state) {
-        content = state.getContent();
+        content = state.content();
     }
 }
